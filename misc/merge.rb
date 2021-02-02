@@ -17,7 +17,7 @@ def merge2
   x = { a: 1, b: 2 }
   y = { a: 2, c: 1 }
 
-  z = Hash.new
+  z = Hash.new # same as {}
   x.inject(y) do |hash, (k, v)|
     if z[k].nil?
       z[k] = v
