@@ -1,3 +1,4 @@
-celsius = 100
-fahrenheit = (celsius * 9/5) + 32
-puts "The result is:  #{fahrenheit}."
+print "Hello please type a Celsius temp: "
+celsius = gets
+fahrenheit = (celsius.to_i * 9/5) + 32
+puts "The Farenheit value is:  #{fahrenheit}."
